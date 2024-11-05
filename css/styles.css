@@ -110,6 +110,18 @@ hr {
   border: 0;
   border-top: 1px solid;
   opacity: 0.25;
+  display: block;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  border-color:  #6c757d; 
+  border-width: 3px;
+  max-width: 50px;
+  margin-top: 20px;
+margin-bottom: 20px;
+border: 0;
+border-top: 1px solid black;
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -219,6 +231,7 @@ b,
 strong {
   font-weight: bolder;
 }
+
 
 small, .small {
   font-size: 0.875em;
@@ -8012,6 +8025,12 @@ textarea.form-control-lg {
   margin-right: auto;
 }
 
+.custom1
+{
+	
+	margin-right: 2em;
+}
+
 .text-decoration-none {
   text-decoration: none !important;
 }
@@ -8098,7 +8117,7 @@ textarea.form-control-lg {
 
 .text-white {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  color: white !important;
 }
 
 .text-body {
@@ -10851,7 +10870,7 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+  background: white;
 }
 
 .font-alt {
@@ -10966,7 +10985,7 @@ section {
 
 section.cta {
   position: relative;
-  padding: 15rem 0;
+  padding: 5rem 0;
   background-image: url("https://media.istockphoto.com/id/1303182525/photo/abstract-background-white-light-blue-purple-color-gradient-defocused.jpg?b=1&s=612x612&w=0&k=20&c=ZcxZTX9ahd5m_cWTkl-_wZTkzhnm-hianJ50P_BTfx4=");
   background-position: center;
   background-size: cover;
@@ -10982,7 +11001,6 @@ section.cta:before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
 }
 
 .icon-feature {
